@@ -11,6 +11,13 @@ export default class HomeScreen extends Component {
 
         return {
             title: params ? params.otherParam : 'Home Screen',
+            headerStyle: {
+                backgroundColor: '#f4511e',
+            },
+            headerTintColor: '#fff',
+            headerTitleStyle: {
+                fontWeight: 'bold',
+            },
         }
     };
 
